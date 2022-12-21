@@ -3,19 +3,19 @@
 
  #include "misc.h"
 
-#define LED1 D6  /* Pin 6 */
-#define LED2 D7  /* Pin 7 */
-#define LED3 B0  /* Pin 8 */ 
-#define LED4 B1  /* Pin 9 */
-#define LED5 B2  /* Pin 10 */
+#define LED1 PORTD6  /* Pin 6 */
+#define LED2 PORTD7  /* Pin 7 */
+#define LED3 PORTB0  /* Pin 8 */ 
+#define LED4 PORTB1  /* Pin 9 */
+#define LED5 PORTB2  /* Pin 10 */
 
-#define BUTTON1 D2  /* Pin 2 */
-#define BUTTON2 D3  /* Pin 3 */ 
-#define BUTTON3 B3  /* Pin 11 */ 
-#define BUTTON4 B4  /* Pin 12 */
-#define BUTTON5 B5  /* Pin 13 */
+#define BUTTON1 PORTD2  /* Pin 2 */
+#define BUTTON2 PORTD3  /* Pin 3 */ 
+#define BUTTON3 PORTB3  /* Pin 11 */ 
+#define BUTTON4 PORTB4  /* Pin 12 */
+#define BUTTON5 PORTB5  /* Pin 13 */
 
-#define POT1 C0    /* Pin A0 */
+#define POT1 PORTC0    /* Pin A0 */
 
 /********************************************************************************
 * setup: Initierar mikrodatorns I/O-portar, PCI-avbrott samt AD-omvandlare.
